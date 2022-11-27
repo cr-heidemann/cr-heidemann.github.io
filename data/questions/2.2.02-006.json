@@ -1,0 +1,12 @@
+{
+    "ID":"2.2.02-006", 
+    "category":"Zusatzstoff",
+    "subcategory":"Verhalten im Straßenverkehr",
+    "question":"Sie fahren außerorts auf einer Straße mit drei markierten Fahrstreifen in jeder Fahrtrichtung. Auf dem rechten Fahrstreifen fahren in größeren Abständen einzelne, langsamere Fahrzeuge. Welchen Fahrstreifen dürfen Sie durchgängig befahren?", 
+    "answers":{
+        "a":"Den mittleren",
+        "b":"Den linken"
+    }, 
+    "right_answers":["a"], 
+    "points": 3, 
+    "src":""}

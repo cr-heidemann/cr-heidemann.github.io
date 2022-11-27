@@ -1,0 +1,13 @@
+{
+    "ID":"2.2.02-003", 
+    "category":"Zusatzstoff",
+    "subcategory":"Verhalten im Straßenverkehr",
+    "question":"Bei 'Rot' warten vor einer Ampel mehrere Pkw auf dem rechten Fahrstreifen. Dürfen Sie die Pkw vorsichtig rechts überholen?", 
+    "answers":{
+        "a":"Ja, wenn dafür auf der Fahrbahn ausreichend Platz ist",
+        "b":"Ja, wenn Sie dazu auf den Gehweg ausweichen",
+        "c":"Nein, Sie müssen immer hinter dem letzten Pkw warten"
+    }, 
+    "right_answers":["a"], 
+    "points": 3, 
+    "src":""}

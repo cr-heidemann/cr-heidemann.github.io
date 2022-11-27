@@ -1,0 +1,13 @@
+{
+    "ID":"1.2.01-001", 
+    "category":"Grundstoff",
+    "subcategory":"Verhalten im Straßenverkehr",
+    "question":"Die Teilnahme am Straßenverkehr erfordert ständige Vorsicht und gegenseitige Rücksicht. Was bedeutet das für Sie?", 
+    "answers":{
+        "a":"mit Fehlverhalten anderer rechnen",
+        "b":"vorausschauend fahren",
+        "c":"in jedem Fall auf Ihrem Vorfahrtrecht bestehen"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 4, 
+    "src":""}

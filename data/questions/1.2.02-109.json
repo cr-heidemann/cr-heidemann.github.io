@@ -1,0 +1,13 @@
+{
+    "ID":"1.2.02-109", 
+    "category":"Grundstoff",
+    "subcategory":"Verhalten im Straßenverkehr",
+    "question":"Was ist in dieser Situation richtig?", 
+    "answers":{
+        "a":"gilt die Vorfahrtregel 'rechts vor links'",
+        "b":"habe ich Vorfahrt",
+        "c":"endet ein verkehrsberuhigter Bereich"
+    }, 
+    "right_answers":["a"], 
+    "points": 2, 
+    "src":"data/src/1.2.02-109.png"}

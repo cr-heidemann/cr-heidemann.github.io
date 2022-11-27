@@ -1,0 +1,13 @@
+{
+    "ID":"1.1.01-108", 
+    "category":"Grundstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Welche Folgen kann die Missachtung von Müdigkeitsanzeichen nach sich ziehen?", 
+    "answers":{
+        "a":"Sekundenschlaf",
+        "b":"Konzentrationsmangel",
+        "c":"Fahrfehler"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points":4, 
+    "src":""}

@@ -1,0 +1,13 @@
+{
+    "ID":"1.1.01-004", 
+    "category":"Grundstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Sie sollen ein Ihnen unbekanntes Kraftfahrzeug fahren. Warum müssen Sie dabei zunächst besonders vorsichtig sein?", 
+    "answers":{
+        "a":"- in der Anordnung und der Funktion der Bedienelemente",
+        "b":"- im Bremsverhalten",
+        "c":"- im Lenkverhalten"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points":3, 
+    "src":""}

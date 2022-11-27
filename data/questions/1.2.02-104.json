@@ -1,0 +1,13 @@
+{
+    "ID":"1.2.02-104", 
+    "category":"Grundstoff",
+    "subcategory":"Verhalten im Straßenverkehr",
+    "question":"Sie haben sich irrtümlich links eingeordnet, möchten aber nach rechts abbiegen. Wie verhalten Sie sich richtig?", 
+    "answers":{
+        "a":"Ich fahre geradeaus weiter oder biege links ab",
+        "b":"Ich wechsle vorsichtig in den rechten Fahrstreifen",
+        "c":"Ich fahre geradeaus weiter und biege im Kreuzungsbereich rechts ab"
+    }, 
+    "right_answers":["a"], 
+    "points": 4, 
+    "src":"data/src/1.2.02-104.png"}

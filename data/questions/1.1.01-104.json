@@ -1,0 +1,13 @@
+{
+    "ID":"1.1.01-104", 
+    "category":"Grundstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Wodurch kann eine Gefährdung entstehen?", 
+    "answers":{
+        "a":"Durch abgefahrene Reifen",
+        "b":"Durch zu hoch eingestellte Scheinwerfer",
+        "c":"Durch auffällige Lackierung des Fahrzeugs"
+    }, 
+    "right_answers":["a", "b"], 
+    "points":4, 
+    "src":""}

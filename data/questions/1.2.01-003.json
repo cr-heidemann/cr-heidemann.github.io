@@ -1,0 +1,13 @@
+{
+    "ID":"1.2.01-003", 
+    "category":"Grundstoff",
+    "subcategory":"Verhalten im Straßenverkehr",
+    "question":"Gegenüber welchen Verkehrsteilnehmern müssen Sie sich besonders vorsichtig verhalten?", 
+    "answers":{
+        "a":"Gegenüber Personen mit erkennbaren Behinderungen",
+        "b":"Gegenüber Kindern",
+        "c":"Gegenüber Taxifahrern"
+    }, 
+    "right_answers":["a", "b"], 
+    "points":4, 
+    "src":""}

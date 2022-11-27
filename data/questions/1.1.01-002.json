@@ -1,0 +1,13 @@
+{
+    "ID":"1.1.01-002", 
+    "category":"Grundstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Was kann zu Auffahrunfällen führen?", 
+    "answers":{
+        "a":"Unerwartet starkes Bremsen",
+        "b":"Unaufmerksamkeit",
+        "c":"Zu dichtes Auffahren"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points":4, 
+    "src":""}

@@ -1,0 +1,13 @@
+{
+    "ID":"2.1.01-004", 
+    "category":"Zusatzstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Wodurch kann eine Gefährdung entstehen?", 
+    "answers":{
+        "a":"Durch Kurvenschneiden",
+        "b":"Durch zu spätes Abblenden",
+        "c":"Durch zu großen Abstand nach vorn"
+    }, 
+    "right_answers":["a", "b"], 
+    "points":4, 
+    "src":""}

@@ -1,0 +1,13 @@
+{
+    "ID":"2.1.01-003", 
+    "category":"Zusatzstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Was kann in Kurven zum Schleudern führen?", 
+    "answers":{
+        "a":"Starkes Bremsen",
+        "b":"Schnelles Fahren auf nasser Fahrbahn",
+        "c":"Leichtes Beschleunigen am Kurvenausgang"
+    }, 
+    "right_answers":["a", "b"], 
+    "points":3, 
+    "src":""}

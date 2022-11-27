@@ -1,0 +1,13 @@
+{
+    "ID":"1.3.01-053", 
+    "category":"Grundstoff",
+    "subcategory":"Vorfahrt, Vorrang",
+    "question":"Sie möchten nach rechts in eine Vorfahrtstraße einbiegen. Worauf müssen Sie achten?", 
+    "answers":{
+        "a":"Auf von links und von rechts kommende Fahrzeuge",
+        "b":"Auf Radfahrer und Fußgänger, die rechts neben oder noch hinter Ihnen sind",
+        "c":"Nur auf die von links kommenden Fahrzeuge"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 5, 
+    "src":""}

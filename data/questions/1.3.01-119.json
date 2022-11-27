@@ -1,0 +1,13 @@
+{
+    "ID":"1.3.01-119", 
+    "category":"Grundstoff",
+    "subcategory":"Vorfahrt, Vorrang",
+    "question":"Sie möchten eine Vorfahrtstraße überqueren. Die Sicht nach beiden Seiten ist durch parkende Fahrzeuge stark eingeschränkt. Wie verhalten Sie sich?", 
+    "answers":{
+        "a":"Ich taste mich vorsichtig in die Kreuzung hinein",
+        "b":"Ich überquere die Kreuzung zügig",
+        "c":"Ich warne den kreuzenden Verkehr durch Hupen"
+    }, 
+    "right_answers":["a"], 
+    "points": 5, 
+    "src":""}

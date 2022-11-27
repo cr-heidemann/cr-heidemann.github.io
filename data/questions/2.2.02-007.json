@@ -1,0 +1,13 @@
+{
+    "ID":"2.2.02-007", 
+    "category":"Zusatzstoff",
+    "subcategory":"Verhalten im Straßenverkehr",
+    "question":"Welche Gefahren können entstehen, wenn Sie rechts neben einem Lkw fahren?", 
+    "answers":{
+        "a":"vom Fahrer des Lkws übersehen werden",
+        "b":"von anderen Verkehrsteilnehmern übersehen werden",
+        "c":"andere Verkehrsteilnehmer übersehen"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points": 4, 
+    "src":""}

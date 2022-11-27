@@ -1,0 +1,13 @@
+{
+    "ID":"1.2.02-110", 
+    "category":"Grundstoff",
+    "subcategory":"Verhalten im Straßenverkehr",
+    "question":"Was müssen Sie beim Überqueren einer Vorfahrtstraße beachten?", 
+    "answers":{
+        "a":"die Breite der Vorfahrtstraße",
+        "b":"die Geschwindigkeit und Entfernung des Querverkehrs",
+        "c":"die Witterungsverhältnisse"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points": 2, 
+    "src":""}

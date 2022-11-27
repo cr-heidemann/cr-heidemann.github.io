@@ -1,0 +1,13 @@
+{
+    "ID":"1.1.01-112", 
+    "category":"Grundstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Was kann zum Abkommen von der Fahrbahn führen?", 
+    "answers":{
+        "a":"Ablenkung",
+        "b":"Unaufmerksamkeit",
+        "c":"Müdigkeit"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points":4, 
+    "src":""}

@@ -1,0 +1,13 @@
+{
+    "ID":"1.1.01-107", 
+    "category":"Grundstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Welche Anzeichen warnen während der Fahrt vor aufkommender Müdigkeit?", 
+    "answers":{
+        "a":"Schwere Augenlider",
+        "b":"Häufiges Gähnen",
+        "c":"Verkürzte Reaktionszeit"
+    }, 
+    "right_answers":["a", "b"], 
+    "points":4, 
+    "src":""}

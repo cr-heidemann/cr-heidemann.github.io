@@ -1,0 +1,13 @@
+{
+    "ID":"2.2.02-008", 
+    "category":"Zusatzstoff",
+    "subcategory":"Verhalten im Straßenverkehr",
+    "question":"Was gilt für Sie an der nächsten Kreuzung?", 
+    "answers":{
+        "a":"nach links abbiegen",
+        "b":"nach rechts abbiegen",
+        "c":"geradeaus weiterfahren"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":"data/src/2.2.02-008.png"}

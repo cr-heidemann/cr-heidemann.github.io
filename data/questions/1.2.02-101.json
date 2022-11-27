@@ -1,0 +1,13 @@
+{
+    "ID":"1.2.02-101", 
+    "category":"Grundstoff",
+    "subcategory":"Verhalten im Straßenverkehr",
+    "question":"Wozu darf der rechte Seitenstreifen benutzt werden?", 
+    "answers":{
+        "a":"Zum Halten und Parken",
+        "b":"Zum Befahren mit langsamen Fahrzeugen",
+        "c":"Zum Überholen"
+    }, 
+    "right_answers":["a", "b"], 
+    "points":3, 
+    "src":"data/src/1.2.02-101.png"}

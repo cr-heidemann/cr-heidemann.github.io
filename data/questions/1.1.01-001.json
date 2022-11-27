@@ -1,0 +1,13 @@
+{
+    "ID":"1.1.01-001", 
+    "category":"Grundstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Was versteht man unter defensivem Fahren?", 
+    "answers":{
+        "a":"Nicht auf dem eigenen Recht bestehen",
+        "b":"Mit Fehlern anderer rechnen",
+        "c":"Vorsorglich an jeder Kreuzung anhalten"
+    }, 
+    "right_answers":["a", "b"], 
+    "points":4, 
+    "src":""}

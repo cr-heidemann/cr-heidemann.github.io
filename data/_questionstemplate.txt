@@ -1,0 +1,23 @@
+{
+    "ID":"", 
+    "category":"",
+    "subcategory":"",
+    "question":"", 
+    "answers":{}, 
+    "right_answers":[], 
+    "points":null, 
+    "src":""}
+
+    {
+    "ID":"2.1.01-00", 
+    "category":"Zusatzstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"", 
+    "answers":{
+        "a":"",
+        "b":"",
+        "c":""
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points":4, 
+    "src":""}

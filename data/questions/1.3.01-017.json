@@ -1,0 +1,13 @@
+{
+    "ID":"1.3.01-017", 
+    "category":"Grundstoff",
+    "subcategory":"Vorfahrt, Vorrang",
+    "question":"Welches Verhalten ist richtig?", 
+    "answers":{
+        "a":"Ich muss [das Motorrad] durchfahren lassen",
+        "b":"Ich fahre vor [dem Bus]",
+        "c":"Ich muss [den Bus] durchfahren lassen"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 5, 
+    "src":"data/src/1.3.01-017.png"}

@@ -1,0 +1,13 @@
+{
+    "ID":"1.3.01-002", 
+    "category":"Grundstoff",
+    "subcategory":"Vorfahrt, Vorrang",
+    "question":"An welchen Stellen ohne vorfahrtregelnde Verkehrszeichen gilt die Regel 'rechts vor links'?", 
+    "answers":{
+        "a":"An Straßenkreuzungen und -einmündungen",
+        "b":"An Einmündungen mit abgesenktem Bordstein",
+        "c":"Wo Feld- oder Waldwege in eine andere Straße münden"
+    }, 
+    "right_answers":["a"], 
+    "points": 5, 
+    "src":""}

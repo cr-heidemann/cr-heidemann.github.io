@@ -1,0 +1,57 @@
+<!-- Try this example at https://alpsquid.github.io/quizlib -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <script type="text/javascript" src="/scripts/quizlib.1.0.1.min.js"></script>
+        <!-- Dev: <script type="text/javascript" src="../../src/quizlib.js"></script>-->
+        <script type="text/javascript" src="/scripts/prüfung.js"></script>
+        <link rel="stylesheet" type="text/css" href="/styles/quizlib.min.css" media="screen">
+        <!-- Dev: <link rel="stylesheet" type="text/css" href="../../src/quizlib.css" media="screen">-->
+        <link rel="stylesheet" type="text/css" href="/styles/stylesheet.css" media="screen">
+        
+        <title>Prüfungssimulation</title>
+    </head>
+
+    <body>
+        <body>
+            <!-- Quiz Results -->
+            <!-- For this multi quiz, we'll use the same result element and move it to active quiz when the answer button is pressed. -->
+            <div id="quiz-result" class="card">
+                You Scored <span id="quiz-percent"></span>% - <span id="quiz-score"></span>/<span id="quiz-max-score"></span><br/>
+            </div>
+    
+    
+            <!-- Quiz 1 -->
+            <div id="prüfung">
+    
+                <h2>Prüfungssimulation</h2>
+                Maxmimal 10 Fehlerpunkte erlaubt, es dürfen nicht 2 Fragen mit 5 Fehlerpunkten falsch beantwortet werden.
+                <div id="questions">
+                <!-- Question 1 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_01"></h3></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="aaaa">
+                            
+                            <li><label><input type="checkbox" name="q1" value="a">Nicht auf dem eigenen Recht bestehen</label></li>
+                            <li><label><input type="checkbox" name="q1" value="b">Mit Fehlern anderer rechnen</label></li>
+                            <li><label><input type="checkbox" name="q1" value="c">Vorsorglich an jeder Kreuzung anhalten</label></li>
+    
+                            
+                        </ul>
+                    </div>
+                </div>
+                <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+                <button type="button" onclick="showResults(this.parentNode.id);">Antworten prüfen</button>
+            </div>
+        </div>
+            <div>
+                <a href="index.html">Zurück</a>
+                
+            </div>
+
+    </body>
+</html>

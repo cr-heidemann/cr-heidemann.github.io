@@ -1,0 +1,13 @@
+{
+    "ID":"2.2.02-303", 
+    "category":"Grundstoff",
+    "subcategory":"Vorfahrt, Vorrang",
+    "question":"An welchen Stellen ohne vorfahrtregelnde Verkehrszeichen gilt die Regel 'rechts vor links'?", 
+    "answers":{
+        "a":"An Straßenkreuzungen und -einmündungen",
+        "b":"An Grundstücksausfahrten",
+        "c":"Am Ende eines verkehrsberuhigten Bereiches"
+    }, 
+    "right_answers":["a"], 
+    "points": 5, 
+    "src":""}

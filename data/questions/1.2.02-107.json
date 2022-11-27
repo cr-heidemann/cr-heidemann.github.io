@@ -1,0 +1,13 @@
+{
+    "ID":"1.2.02-107", 
+    "category":"Grundstoff",
+    "subcategory":"Verhalten im Straßenverkehr",
+    "question":"Wie sollten Sie sich in dieser Situation verhalten?", 
+    "answers":{
+        "a":"in die Lücke, um den Entgegenkommenden vorbeizulassen",
+        "b":"weiter, weil der Entgegenkommende zurückfahren muss",
+        "c":"zurück, denn der Entgegenkommende darf fahren"
+    }, 
+    "right_answers":["a"], 
+    "points": 3, 
+    "src":""}

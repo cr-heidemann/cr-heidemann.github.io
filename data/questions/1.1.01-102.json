@@ -1,0 +1,13 @@
+{
+    "ID":"1.1.01-102", 
+    "category":"Grundstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Was sind vermeidbare Behinderungen im fließenden Verkehr?", 
+    "answers":{
+        "a":"Abwürgen des Motors",
+        "b":"Langsamfahren ohne triftigen Grund",
+        "c":"Liegenbleiben wegen Kraftstoffmangels"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points":3, 
+    "src":""}

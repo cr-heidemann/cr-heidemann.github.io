@@ -1,0 +1,13 @@
+{
+    "ID":"1.1.01-110", 
+    "category":"Grundstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Wie wirkt sich Müdigkeit beim Fahren aus?", 
+    "answers":{
+        "a":"Nachlassende Aufmerksamkeit",
+        "b":"Eingeschränkte Wahrnehmung",
+        "c":"Verzögerte Reaktionen"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points":4, 
+    "src":""}

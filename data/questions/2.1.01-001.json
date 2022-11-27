@@ -1,0 +1,13 @@
+{
+    "ID":"2.1.01-001", 
+    "category":"Zusatzstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Was kann in Kurven zum Schleudern führen?", 
+    "answers":{
+        "a":"Defekte Stoßdämpfer",
+        "b":"Zu niedriger oder stark unterschiedlicher Reifendruck",
+        "c":"Zu geringe Beladung"
+    }, 
+    "right_answers":["a", "b"], 
+    "points":3, 
+    "src":""}

@@ -1,0 +1,13 @@
+{
+    "ID":"1.3.01-056", 
+    "category":"Grundstoff",
+    "subcategory":"Vorfahrt, Vorrang",
+    "question":"Wie verhalten Sie sich richtig?", 
+    "answers":{
+        "a":"vor [den beiden Pkws]",
+        "b":"nach [den beiden Pkws]",
+        "c":"nach [dem blauen Pkw]"
+    }, 
+    "right_answers":["a"], 
+    "points": 5, 
+    "src":"data/src/1.3.01-056.png"}

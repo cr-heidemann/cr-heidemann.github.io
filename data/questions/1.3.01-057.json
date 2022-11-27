@@ -1,0 +1,13 @@
+{
+    "ID":"1.3.01-057", 
+    "category":"Grundstoff",
+    "subcategory":"Vorfahrt, Vorrang",
+    "question":"Wie verhalten Sie sich richtig?", 
+    "answers":{
+        "a":"Ich muss [den roten Pkw] durchfahren lassen",
+        "b":"Ich darf vor [dem blauen Lkw] fahren",
+        "c":"Ich darf erst nach [dem blauen Lkw] fahren"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 5, 
+    "src":"data/src/1.3.01-057.png"}

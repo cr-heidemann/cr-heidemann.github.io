@@ -1,0 +1,13 @@
+{
+    "ID":"1.2.02-106", 
+    "category":"Grundstoff",
+    "subcategory":"Verhalten im Straßenverkehr",
+    "question":"Welche Kraftfahrzeuge müssen auf einer Landstraße möglichst den befestigten Seitenstreifen benutzen?", 
+    "answers":{
+        "a":"Langsam fahrende landwirtschaftliche Zug- und Arbeitsmaschinen",
+        "b":"Mofas",
+        "c":"Kleinkrafträder"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

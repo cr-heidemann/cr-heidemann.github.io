@@ -1,0 +1,13 @@
+{
+    "ID":"1.1.01-113", 
+    "category":"Grundstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Was führt häufig zu schweren Unfällen?", 
+    "answers":{
+        "a":"Eine mangelhafte Beobachtung des Verkehrs",
+        "b":"Ein Fahren mit zu geringem Abstand",
+        "c":"Eine unangepasste Geschwindigkeit"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points":4, 
+    "src":""}

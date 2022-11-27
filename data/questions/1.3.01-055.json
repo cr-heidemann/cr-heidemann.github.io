@@ -1,0 +1,13 @@
+{
+    "ID":"1.3.01-055", 
+    "category":"Grundstoff",
+    "subcategory":"Vorfahrt, Vorrang",
+    "question":"Wie verhalten Sie sich richtig?", 
+    "answers":{
+        "a":"nach dem [blauen Lkw]",
+        "b":"nach dem [gelben Pkw]",
+        "c":"vor dem [gelben Pkw]"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 5, 
+    "src":"data/src/1.3.01-055.png"}

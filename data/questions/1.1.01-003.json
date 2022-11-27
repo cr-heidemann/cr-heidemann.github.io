@@ -1,0 +1,13 @@
+{
+    "ID":"1.1.01-003", 
+    "category":"Grundstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Welches Verhalten ist beispielhaft für „Vorausschauendes Fahren“?", 
+    "answers":{
+        "a":"Ich reagiere möglichst frühzeitig auf wahrscheinliche Veränderungen der Verkehrssituation",
+        "b":"Ich versuche, die Absichten anderer Verkehrsteilnehmer möglichst frühzeitig zu erkennen",
+        "c":"Ich beschränke die Verkehrsbeobachtung möglichst auf das direkt vor mir fahrende Fahrzeug"
+    }, 
+    "right_answers":["a", "b"], 
+    "points":2, 
+    "src":""}

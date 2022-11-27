@@ -1,0 +1,13 @@
+{
+    "ID":"1.2.02-108", 
+    "category":"Grundstoff",
+    "subcategory":"Verhalten im Straßenverkehr",
+    "question":"Ihnen kommt eine Pferdekutsche entgegen. Wie sollten Sie sich verhalten?", 
+    "answers":{
+        "a":"Lärm vermeiden",
+        "b":"möglichst weit rechts fahren",
+        "c":"Standlicht einschalten"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

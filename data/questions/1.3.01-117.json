@@ -1,0 +1,13 @@
+{
+    "ID":"1.3.01-117", 
+    "category":"Grundstoff",
+    "subcategory":"Vorfahrt, Vorrang",
+    "question":"Welches Verhalten ist richtig?", 
+    "answers":{
+        "a":"[den Radfahrer] durchfahren lassen",
+        "b":"den [Bus] durchfahren lassen",
+        "c":"an der Haltlinie anhalten"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points": 5, 
+    "src":"data/src/1.3.01-117.png"}

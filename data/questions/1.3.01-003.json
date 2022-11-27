@@ -1,0 +1,13 @@
+{
+    "ID":"1.3.01-003", 
+    "category":"Grundstoff",
+    "subcategory":"Vorfahrt, Vorrang",
+    "question":"Sie kommen an eine Kreuzung, an der Sie die Vorfahrtlage nicht gleich überblicken. Wie verhalten Sie sich?", 
+    "answers":{
+        "a":"Warten, beobachten und sich gegebenenfalls mit anderen verständigen",
+        "b":"Nach der Regel 'rechts vor links' fahren",
+        "c":"Als Geradeausfahrer immer durchfahren"
+    }, 
+    "right_answers":["a"], 
+    "points": 5, 
+    "src":""}

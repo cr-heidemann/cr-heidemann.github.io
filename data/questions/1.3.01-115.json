@@ -1,0 +1,13 @@
+{
+    "ID":"1.3.01-115", 
+    "category":"Grundstoff",
+    "subcategory":"Vorfahrt, Vorrang",
+    "question":"Welches Verhalten ist richtig?", 
+    "answers":{
+        "a":"Ich muss warten",
+        "b":"Der Radfahrer muss warten",
+        "c":"Ich muss an der Sichtlinie anhalten"
+    }, 
+    "right_answers":["a"], 
+    "points": 5, 
+    "src":"data/src/1.3.01-115.png"}

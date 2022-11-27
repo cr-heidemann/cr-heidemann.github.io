@@ -1,0 +1,13 @@
+{
+    "ID":"1.1.01-101", 
+    "category":"Grundstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Sie fahren innerorts hinter einem Fahrzeug mit ortsfremdem Kennzeichen. Was könnte geschehen?", 
+    "answers":{
+        "a":"- bremst unerwartet",
+        "b":"- betätigt den Blinker vor dem Abbiegen zu spät",
+        "c":"- hält unerwartet an, um nach dem Weg zu fragen"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points":3, 
+    "src":""}

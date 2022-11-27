@@ -1,0 +1,13 @@
+{
+    "ID":"1.3.01-048", 
+    "category":"Grundstoff",
+    "subcategory":"Vorfahrt, Vorrang",
+    "question":"Welches Verhalten ist richtig?", 
+    "answers":{
+        "a":"Ich lasse [den blauen Pkw] abbiegen",
+        "b":"Ich fahre als Erster",
+        "c":"Ich lasse das Motorrad vor mir abbiegen"
+    }, 
+    "right_answers":["a"], 
+    "points": 5, 
+    "src":"data/src/1.3.01-048.png"}

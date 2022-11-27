@@ -1,0 +1,13 @@
+{
+    "ID":"2.2.02-002", 
+    "category":"Zusatzstoff",
+    "subcategory":"Verhalten im Straßenverkehr",
+    "question":"Dürfen Sie mit Ihrem Mofa einen Gehweg benutzen?", 
+    "answers":{
+        "a":"Ja, wenn das Mofa vorsichtig geschoben wird",
+        "b":"Ja, wenn das Mofa wie ein Fahrrad benutzt wird",
+        "c":"Ja, auch mit Motor, wenn auf der Fahrbahn zu dichter Verkehr herrscht"
+    }, 
+    "right_answers":["a"], 
+    "points": 3, 
+    "src":""}

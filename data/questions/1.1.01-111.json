@@ -1,0 +1,13 @@
+{
+    "ID":"1.1.01-111", 
+    "category":"Grundstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Wodurch kann eine gefährliche Situation entstehen?", 
+    "answers":{
+        "a":"Durch liegen gebliebene Fahrzeuge",
+        "b":"Durch nicht angepasste Geschwindigkeit",
+        "c":"Durch eingeschaltete Beleuchtung am Tage"
+    }, 
+    "right_answers":["a", "b"], 
+    "points":4, 
+    "src":""}

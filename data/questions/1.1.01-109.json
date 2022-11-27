@@ -1,0 +1,13 @@
+{
+    "ID":"1.1.01-109", 
+    "category":"Grundstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Was ist zu tun, wenn Sie während der Fahrt Anzeichen von Müdigkeit spüren?", 
+    "answers":{
+        "a":"Unverzüglich eine Pause einlegen",
+        "b":"Sich in frischer Luft bewegen",
+        "c":"Anregende Musik hören"
+    }, 
+    "right_answers":["a", "b"], 
+    "points":4, 
+    "src":""}

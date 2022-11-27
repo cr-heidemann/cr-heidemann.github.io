@@ -1,0 +1,13 @@
+{
+    "ID":"1.1.01-103", 
+    "category":"Grundstoff",
+    "subcategory":"Gefahrenlehre",
+    "question":"Warum darf man nicht unnötig langsam fahren?", 
+    "answers":{
+        "a":"Weil der Verkehrsfluss behindert wird",
+        "b":"Weil die Gefahr von Auffahrunfällen erhöht wird",
+        "c":"Weil Nachfolgende zu gefährlichem Überholen verleitet werden"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points":3, 
+    "src":""}

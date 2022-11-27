@@ -1,0 +1,12 @@
+{
+    "ID":"1.3.01-101", 
+    "category":"Grundstoff",
+    "subcategory":"Vorfahrt, Vorrang",
+    "question":"Wer muss warten?", 
+    "answers":{
+        "a":"[Der Pkw, der] aus dem Feldweg kommt",
+        "b":"Ich muss warten"
+    }, 
+    "right_answers":["a"], 
+    "points": 5, 
+    "src":"data/src/1.3.01-101.png"}
