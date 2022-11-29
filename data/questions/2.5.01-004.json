@@ -1,0 +1,13 @@
+{
+    "ID":"2.5.01-004", 
+    "category":"Zusatzstoff",
+    "subcategory":"Umweltschutz",
+    "question":"Wodurch lässt sich Kraftstoff einsparen?", 
+    "answers":{
+        "a":"Durch frühes Hochschalten",
+        "b":"Durch spätes Zurückschalten",
+        "c":"Durch häufiges Fahren im oberen Drehzahlbereich"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

@@ -1,0 +1,13 @@
+{
+    "ID":"1.7.01-006", 
+    "category":"Grundstoff",
+    "subcategory":"Technik",
+    "question":"Nässe kann die Wirkung von Trommelbremsen beeinträchtigen. Was sollten Sie dann tun?", 
+    "answers":{
+        "a":"Ich fahre die Bremse vorsichtig trocken",
+        "b":"Ich betätige die Bremse mehrfach im Stand",
+        "c":"Ich fülle Bremsflüssigkeit nach"
+    }, 
+    "right_answers":["a"], 
+    "points": 3, 
+    "src":""}

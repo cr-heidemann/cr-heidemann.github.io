@@ -1,0 +1,13 @@
+{
+    "ID":"2.4.40-004", 
+    "category":"Zusatzstoff",
+    "subcategory":"Verkehrszeichen",
+    "question":"Wie verhalten Sie sich im Bereich dieser Gefahrstrecke?", 
+    "answers":{
+        "a":"Langsamer fahren, auf Wild achten",
+        "b":"Abblenden und bremsen, wenn Wild in Sicht kommt",
+        "c":"Nicht vor Wild ausweichen, wenn der Gegenverkehr gefährdet würde"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points": 3, 
+    "src":"data/src/2.4.40-004.png"}

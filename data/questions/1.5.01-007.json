@@ -1,0 +1,13 @@
+{
+    "ID":"1.5.01-007", 
+    "category":"Grundstoff",
+    "subcategory":"Umweltschutz",
+    "question":"Was soll man beim Tanken beachten?", 
+    "answers":{
+        "a":"Keine Kraftstoffdämpfe einatmen",
+        "b":"Nicht nachtanken, wenn der Tank voll ist und die Zapfpistole abgeschaltet hat",
+        "c":"Möglichst randvoll tanken"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 4, 
+    "src":""}

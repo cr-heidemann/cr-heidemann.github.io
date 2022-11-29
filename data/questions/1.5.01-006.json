@@ -1,0 +1,13 @@
+{
+    "ID":"1.5.01-006", 
+    "category":"Grundstoff",
+    "subcategory":"Umweltschutz",
+    "question":"Ihr Kraftfahrzeug verliert etwas Öl. Wie viel Trinkwasser kann bereits durch einen Tropfen Öl ungenießbar werden?", 
+    "answers":{
+        "a":"600 Liter",
+        "b":"50 Liter",
+        "c":"1 Liter"
+    }, 
+    "right_answers":["a"], 
+    "points": 4, 
+    "src":""}

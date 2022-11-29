@@ -1,0 +1,13 @@
+{
+    "ID":"2.5.01-009", 
+    "category":"Zusatzstoff",
+    "subcategory":"Umweltschutz",
+    "question":"Wie können Sie nach einem Kaltstart die Umwelt und den Motor schonen?", 
+    "answers":{
+        "a":"Ohne Warmlaufenlassen des Motors mit niedriger Drehzahl losfahren",
+        "b":"Kein Gas geben, Motor im Stand warmlaufen lassen",
+        "c":"Mehrmals im Stand Gas geben, um rasch die günstige Betriebstemperatur zu erreichen"
+    }, 
+    "right_answers":["a"], 
+    "points": 3, 
+    "src":""}

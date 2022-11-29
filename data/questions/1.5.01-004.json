@@ -1,0 +1,13 @@
+{
+    "ID":"1.5.01-004", 
+    "category":"Grundstoff",
+    "subcategory":"Umweltschutz",
+    "question":"Wie wirkt sich eine wesentliche Unterschreitung des empfohlenen Reifendrucks aus?", 
+    "answers":{
+        "a":"Der Kraftstoffverbrauch nimmt zu",
+        "b":"Der Reifenabrieb nimmt zu",
+        "c":"Der Schadstoffausstoß nimmt ab"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

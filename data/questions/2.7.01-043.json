@@ -1,0 +1,12 @@
+{
+    "ID":"2.7.01-043", 
+    "category":"Zusatzstoff",
+    "subcategory":"Technik",
+    "question":"Welche besondere Eigenschaft von Scheibenbremsen müssen Sie bei nasser Fahrbahn berücksichtigen?", 
+    "answers":{
+        "a":"Die Wirkung von Scheibenbremsen setzt in der Regel später ein als auf trockener Fahrbahn",
+        "b":"Die Wirkung von Scheibenbremsen setzt in der Regel früher ein als auf trockener Fahrbahn"
+    }, 
+    "right_answers":["a"], 
+    "points": 3, 
+    "src":""}

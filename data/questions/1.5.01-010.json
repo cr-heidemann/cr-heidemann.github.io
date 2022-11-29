@@ -1,0 +1,13 @@
+{
+    "ID":"1.5.01-010", 
+    "category":"Grundstoff",
+    "subcategory":"Umweltschutz",
+    "question":"Wo können Altöle, Schmierstoffe und Fahrzeugbatterien einer fachgerechten Entsorgung zugeführt werden?", 
+    "answers":{
+        "a":"Auf Wertstoffhöfen",
+        "b":"In Kfz-Werkstätten",
+        "c":"Im Hausmüll"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

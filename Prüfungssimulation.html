@@ -6,10 +6,10 @@
         <meta charset='utf-8'>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <script type="text/javascript" src="/scripts/quizlib.1.0.1.min.js"></script>
-        <!-- Dev: <script type="text/javascript" src="../../src/quizlib.js"></script>-->
+        <!-- Dev: <script type="text/javascript" src="/scripts/quizlib.1.0.1.js"></script>-->
         <script type="text/javascript" src="/scripts/prüfung.js"></script>
         <link rel="stylesheet" type="text/css" href="/styles/quizlib.min.css" media="screen">
-        <!-- Dev: <link rel="stylesheet" type="text/css" href="../../src/quizlib.css" media="screen">-->
+        <!-- Dev: <link rel="stylesheet" type="text/css" href="/scripts/quizlib.css" media="screen">-->
         <link rel="stylesheet" type="text/css" href="/styles/stylesheet.css" media="screen">
         
         <title>Prüfungssimulation</title>
@@ -20,7 +20,7 @@
             <!-- Quiz Results -->
             <!-- For this multi quiz, we'll use the same result element and move it to active quiz when the answer button is pressed. -->
             <div id="quiz-result" class="card">
-                You Scored <span id="quiz-percent"></span>% - <span id="quiz-score"></span>/<span id="quiz-max-score"></span><br/>
+                Du hast <span id="quiz-score"></span> Fehlerpunkte. Damit hast du <span id="quiz-result-text"></span><br/>
             </div>
     
     
@@ -29,27 +29,345 @@
     
                 <h2>Prüfungssimulation</h2>
                 Maxmimal 10 Fehlerpunkte erlaubt, es dürfen nicht 2 Fragen mit 5 Fehlerpunkten falsch beantwortet werden.
-                <div id="questions">
+                <!-- <div id="questions">-->
                 <!-- Question 1 -->
                 <div class="card quizlib-question">
-                    <div class="quizlib-question-title"><h3 id="frage_01"></h3></div>
+                    <div class="quizlib-question-title"><h3 id="frage_1"></h3></div>
+                    <div id="punkte_1"></div>
                     <div class="quizlib-question-answers">
-                        <ul id="aaaa">
-                            
-                            <li><label><input type="checkbox" name="q1" value="a">Nicht auf dem eigenen Recht bestehen</label></li>
-                            <li><label><input type="checkbox" name="q1" value="b">Mit Fehlern anderer rechnen</label></li>
-                            <li><label><input type="checkbox" name="q1" value="c">Vorsorglich an jeder Kreuzung anhalten</label></li>
-    
-                            
+                        <ul id="antworten_1">
+                       
                         </ul>
                     </div>
                 </div>
+
+                <!-- Question 2 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_2"></h3></div>
+                    <div id="punkte_2"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_2">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_3"></h3></div>
+                    <div id="punkte_3"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_3">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 4 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_4"></h3></div>
+                    <div id="punkte_4"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_4">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 5 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_5"></h3></div>
+                    <div id="punkte_5"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_5">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 6 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_6"></h3></div>
+                    <div id="punkte_6"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_6">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 7 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_7"></h3></div>
+                    <div id="punkte_7"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_7">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 8 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_8"></h3></div>
+                    <div id="punkte_8"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_8">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 9 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_9"></h3></div>
+                    <div id="punkte_9"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_9">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 10 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_10"></h3></div>
+                    <div id="punkte_10"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_10">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 11 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_11"></h3></div>
+                    <div id="punkte_11"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_11">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 12 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_12"></h3></div>
+                    <div id="punkte_12"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_12">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 13 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_13"></h3></div>
+                    <div id="punkte_13"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_13">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 14 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_14"></h3></div>
+                    <div id="punkte_14"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_14">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 15 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_15"></h3></div>
+                    <div id="punkte_15"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_15">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 16 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_16"></h3></div>
+                    <div id="punkte_16"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_16">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 17 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_17"></h3></div>
+                    <div id="punkte_17"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_17">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 18 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_18"></h3></div>
+                    <div id="punkte_18"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_18">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 19 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_19"></h3></div>
+                    <div id="punkte_19"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_19">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 20 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_20"></h3></div>
+                    <div id="punkte_20"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_20">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 21 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_21"></h3></div>
+                    <div id="punkte_21"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_21">
+                       
+                        </ul>
+                    </div>
+                </div>
+                <!-- Question 22 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_22"></h3></div>
+                    <div id="punkte_22"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_22">
+                       
+                        </ul>
+                    </div>
+                </div>
+                <!-- Question 23 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_23"></h3></div>
+                    <div id="punkte_23"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_23">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 24 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_24"></h3></div>
+                    <div id="punkte_24"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_24">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 25 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_25"></h3></div>
+                    <div id="punkte_25"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_25">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 26 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_26"></h3></div>
+                    <div id="punkte_26"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_26">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 27 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_27"></h3></div>
+                    <div id="punkte_27"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_27">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 28 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_28"></h3></div>
+                    <div id="punkte_28"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_28">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 29 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_29"></h3></div>
+                    <div id="punkte_29"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_29">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Question 30 -->
+                <div class="card quizlib-question">
+                    <div class="quizlib-question-title"><h3 id="frage_30"></h3></div>
+                    <div id="punkte_30"></div>
+                    <div class="quizlib-question-answers">
+                        <ul id="antworten_30">
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                
+
+
+
                 <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
                 <button type="button" onclick="showResults(this.parentNode.id);">Antworten prüfen</button>
             </div>
         </div>
             <div>
-                <a href="index.html">Zurück</a>
+                <a href="index.html"><button>Zurück</button></a>
                 
             </div>
 

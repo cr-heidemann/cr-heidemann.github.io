@@ -1,0 +1,13 @@
+{
+    "ID":"2.7.01-046", 
+    "category":"Zusatzstoff",
+    "subcategory":"Technik",
+    "question":"Sie befahren eine Kurve ein Mal mit 30 km/h und ein anderes Mal mit 60 km/h. Wie ändert sich dabei die Fliehkraft?", 
+    "answers":{
+        "a":"viermal so groß",
+        "b":"doppelt so groß",
+        "c":"gleich groß"
+    }, 
+    "right_answers":["a"], 
+    "points": 3, 
+    "src":""}

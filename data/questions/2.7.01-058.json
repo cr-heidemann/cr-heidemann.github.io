@@ -1,0 +1,13 @@
+{
+    "ID":"2.7.01-058", 
+    "category":"Zusatzstoff",
+    "subcategory":"Technik",
+    "question":"Sie fahren bei Nässe mit einem Pkw und Anhänger auf einer schmalen Landstraße und nähern sich einer übersichtlichen, aber engen Linkskurve. Wie verhalten Sie sich?", 
+    "answers":{
+        "a":"Ich verringere die Geschwindigkeit vor der Kurve",
+        "b":"Ich bleibe in der Mitte des Fahrstreifens und beschleunige erst wieder beim Übergang in die Gerade",
+        "c":"Ich bremse erst im Scheitelpunkt der Kurve"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 4, 
+    "src":""}

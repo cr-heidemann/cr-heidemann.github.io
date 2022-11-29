@@ -1,0 +1,13 @@
+{
+    "ID":"1.4.40-004", 
+    "category":"Grundstoff",
+    "subcategory":"Verkehrszeichen",
+    "question":"Wie verhalten Sie sich bei diesem Verkehrszeichen?", 
+    "answers":{
+        "a":"Dem Gegenverkehr Vorrang einräumen",
+        "b":"Bei zwei Fahrstreifen für eine Richtung das Reißverschlussverfahren anwenden",
+        "c":"Wenn Sie bei zwei Fahrstreifen für eine Richtung auf dem linken fahren, haben Sie absoluten Vorrang"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":"data/src/1.4.40-004.png"}

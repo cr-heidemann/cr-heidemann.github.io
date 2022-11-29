@@ -1,0 +1,13 @@
+{
+    "ID":"1.5.01-001", 
+    "category":"Grundstoff",
+    "subcategory":"Umweltschutz",
+    "question":"Worauf müssen Sie im Interesse der Umweltschonung achten?", 
+    "answers":{
+        "a":"Längeres Laufenlassen des Motors im Stand vermeiden",
+        "b":"Unnützes Hin- und Herfahren vermeiden",
+        "c":"Häufig mit hoher Drehzahl fahren"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

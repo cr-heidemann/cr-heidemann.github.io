@@ -1,0 +1,13 @@
+{
+    "ID":"2.4.40-002", 
+    "category":"Zusatzstoff",
+    "subcategory":"Verkehrszeichen",
+    "question":"Wie verhalten Sie sich auf einer Autobahn bei diesem Verkehrszeichen?", 
+    "answers":{
+        "a":"Aufmerksamkeit erhöhen, vorsorglich Abstand vergrößern",
+        "b":"Bei Stau abbremsen und Warnblinklicht einschalten",
+        "c":"Bei Stau auf den Seitenstreifen wechseln und dort weiterfahren"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 4, 
+    "src":"data/src/2.4.40-002.png"}

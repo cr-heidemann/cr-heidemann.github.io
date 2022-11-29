@@ -1,0 +1,56 @@
+<!-- Try this example at https://alpsquid.github.io/quizlib -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <script type="text/javascript" src="/scripts/quizlib.1.0.1.min.js"></script>
+        <!-- Dev: <script type="text/javascript" src="../../src/quizlib.js"></script>-->
+        <script type="text/javascript" src="/scripts/1.3.01-122.js"></script>
+        <script type="text/javascript" src="../../scripts/randomquestion.js"></script>
+        <link rel="stylesheet" type="text/css" href="/styles/quizlib.min.css" media="screen">
+        <!-- Dev: <link rel="stylesheet" type="text/css" href="../../src/quizlib.css" media="screen">-->
+        <link rel="stylesheet" type="text/css" href="/styles/stylesheet.css" media="screen">
+        
+        <title>Vorfahrt - Grundstoff - 1.3.01-122</title>
+    </head>
+
+    <body>
+        <!-- Quiz Results -->
+        <!-- For this multi quiz, we'll use the same result element and move it to active quiz when the answer button is pressed. -->
+        <div id="quiz-result" class="card">
+            You Scored <span id="quiz-percent"></span>% - <span id="quiz-score"></span>/<span id="quiz-max-score"></span><br/>
+        </div>
+
+
+        <!-- Quiz 1 -->
+        <div id="1.3.01-122">
+
+            <h2>Vorfahrt - Grundstoff - 1.3.01-122</h2>
+            5 Punkte
+            <br>
+            <img src="data/src/1.3.01-122.png" width="500" height="300">
+            <!-- Question 1 -->
+            <div class="card quizlib-question">
+                <div class="quizlib-question-title"><h3>Welches Verhalten ist richtig?</h3></div>
+                <div class="quizlib-question-answers">
+                    <ul>
+                        
+                        <li><label><input type="checkbox" name="q1" value="a">Ich muss warten</label></li>
+                        <li><label><input type="checkbox" name="q1" value="b">[Der grüne Pkw] muss warten</label></li>
+
+                        
+                    </ul>
+                </div>
+            </div>
+            <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+            <button type="button" onclick="showResults(this.parentNode.id);">Antworten prüfen</button>
+        </div>
+        <div>
+            <a href="1.3.01-121.html"><button>Zurück</button></a>
+            <a href="1.3.01-123.html"><button>Weiter</button></a>
+            <button onclick="">Zufällig</button>
+        </div>
+    </body>
+</html>

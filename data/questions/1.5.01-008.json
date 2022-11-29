@@ -1,0 +1,13 @@
+{
+    "ID":"1.5.01-008", 
+    "category":"Grundstoff",
+    "subcategory":"Umweltschutz",
+    "question":"An einem Fahrzeug sind Motor und Schalldämpfer 'frisiert'. Welche Folgen kann das haben?", 
+    "answers":{
+        "a":"Die Lärmbelästigung nimmt zu",
+        "b":"Der Schadstoffausstoß wird größer",
+        "c":"Der Kraftstoffverbrauch sinkt erheblich"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

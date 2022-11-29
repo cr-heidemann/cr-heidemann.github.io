@@ -1,0 +1,13 @@
+{
+    "ID":"2.4.40-003", 
+    "category":"Zusatzstoff",
+    "subcategory":"Verkehrszeichen",
+    "question":"Wie müssen Sie sich bei diesem Verkehrszeichen verhalten?", 
+    "answers":{
+        "a":"Geschwindigkeit vor der Kurve vermindern",
+        "b":"Möglichst weit rechts fahren",
+        "c":"Vor der Kurve links blinken"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":"data/src/2.4.40-003.png"}

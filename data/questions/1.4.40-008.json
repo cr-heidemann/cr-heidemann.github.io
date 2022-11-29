@@ -1,0 +1,13 @@
+{
+    "ID":"1.4.40-008", 
+    "category":"Grundstoff",
+    "subcategory":"Verkehrszeichen",
+    "question":"Worauf weist diese Kombination von Verkehrszeichen hin?", 
+    "answers":{
+        "a":"Auf eine Gefahrstelle im Zusammenhang mit Pferden",
+        "b":"Auf den Vorrang von Reitern vor Kraftfahrzeugen",
+        "c":"Auf ein Durchfahrtsverbot wegen eines Reitweges"
+    }, 
+    "right_answers":["a"], 
+    "points": 3, 
+    "src":"data/src/1.4.40-008.png"}

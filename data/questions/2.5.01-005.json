@@ -1,0 +1,13 @@
+{
+    "ID":"2.5.01-005", 
+    "category":"Zusatzstoff",
+    "subcategory":"Umweltschutz",
+    "question":"Wodurch kann Lärm vermieden werden?", 
+    "answers":{
+        "a":"Starkes Beschleunigen möglichst vermeiden",
+        "b":"Durch Abschalten des Motors bei längerem Warten oder Halten",
+        "c":"Durch Fahren mit hoher Drehzahl"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

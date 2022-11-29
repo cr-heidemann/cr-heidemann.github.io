@@ -1,0 +1,13 @@
+{
+    "ID":"1.4.40-006", 
+    "category":"Grundstoff",
+    "subcategory":"Verkehrszeichen",
+    "question":"Welches Verhalten verlangt dieses Verkehrszeichen von Ihnen?", 
+    "answers":{
+        "a":"Höchste Aufmerksamkeit",
+        "b":"Bremsbereitschaft",
+        "c":"Geschwindigkeit vermindern"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points": 5, 
+    "src":"data/src/1.4.40-006.png"}

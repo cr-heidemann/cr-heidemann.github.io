@@ -1,0 +1,13 @@
+{
+    "ID":"1.4.40-009", 
+    "category":"Grundstoff",
+    "subcategory":"Verkehrszeichen",
+    "question":"Worauf weist diese Kombination von Verkehrszeichen hin?", 
+    "answers":{
+        "a":"Auf eine Gefahrstelle im Zusammenhang mit Gespannfuhrwerken",
+        "b":"Auf den Vorrang von Gespannfuhrwerken vor Kraftfahrzeugen",
+        "c":"Auf ein Durchfahrtsverbot für Gespannfuhrwerke"
+    }, 
+    "right_answers":["a"], 
+    "points": 3, 
+    "src":"data/src/1.4.40-009.png"}

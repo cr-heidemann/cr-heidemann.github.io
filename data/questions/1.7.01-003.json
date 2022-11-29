@@ -1,0 +1,13 @@
+{
+    "ID":"1.7.01-003", 
+    "category":"Grundstoff",
+    "subcategory":"Technik",
+    "question":"Wodurch wird die Größe der Fliehkraft in Kurven beeinflusst?", 
+    "answers":{
+        "a":"Durch den Kurvenradius",
+        "b":"Durch die Geschwindigkeit",
+        "c":"Durch den Fahrtwind"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

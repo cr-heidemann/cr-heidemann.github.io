@@ -20,11 +20,23 @@ def make_html(files, json):
         template=temp.read()
     ID=json["ID"]
     category=json["category"]
-    subcategories={"Gefahrenlehre":"Gefahrenlehre", "Verhalten im Straßenverkehr":"Verhalten", "Vorfahrt, Vorrang":"Vorfahrt"}
+    subcategories={"Gefahrenlehre":"Gefahrenlehre",
+                   "Verhalten im Straßenverkehr":"Verhalten",
+                   "Vorfahrt, Vorrang":"Vorfahrt",
+                   "Verkehrszeichen":"Verkehrszeichen",
+                   "Umweltschutz":"Umweltschutz",
+                   "Technik":"Technik",
+                   "Eignung und Befähigung von Kraftfahrern":"Eignung",
+                   "Vorschriften über den Betrieb der Fahrzeuge":"Betriebsvorschriften"}
     subcategory=subcategories[json["subcategory"]]
     points=json["points"]
     path="questions//" + subcategory + "//" + ID + ".html"
-    
+    src=""
+    if json["src"].endswith(".png"):
+        src='<img src="'+ json["src"]+'" width="500" height="300">'
+    elif json["src"].endswith(".mp4"):
+        src='<video width="500" height="300" controls><source src="'+ src+'" type="video/mp4"></video>'
+
     index=files[ID[2]].index(ID)
     #print(index)
     if index == 0:
@@ -44,16 +56,18 @@ def make_html(files, json):
         # <li><label><input type="checkbox" name="q1" value="{{key}}"> {{value}}</label></li>
         answers+='                        <li><label><input type="checkbox" name="q1" value="'+key+'">'+value+'</label></li>' +"\n"
         
-    map_category_func={"gefahrenlehre":"zufaellig_button_gefahrenlehre()"}
+    map_category_func={"Gefahrenlehre":"zufaellig_button_gefahrenlehre()",
+                       }  
     fun=""
     for key, value in map_category_func.items():
-        if subcategory.lower() in key:
+        if subcategory == key:
             fun=value
             
     template=template.replace("{{ID}}", ID)
     template=template.replace("{{category}}", category)
     template=template.replace("{{subcategory}}", subcategory)
     template=template.replace("{{points}}", str(points))
+    template=template.replace("{{source}}", src)
     template=template.replace("{{question}}",question)
     template=template.replace("{{answers}}",answers)
     template=template.replace("{{before}}",before)

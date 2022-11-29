@@ -1,0 +1,13 @@
+{
+    "ID":"2.4.40-005", 
+    "category":"Zusatzstoff",
+    "subcategory":"Verkehrszeichen",
+    "question":"Worauf müssen Sie sich bei diesem Verkehrszeichen einstellen?", 
+    "answers":{
+        "a":"Auf Seitenwind",
+        "b":"Auf Gegenlenken",
+        "c":"Auf Flugbetrieb"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":"data/src/2.4.40-005.png"}

@@ -1,0 +1,13 @@
+{
+    "ID":"1.5.01-003", 
+    "category":"Grundstoff",
+    "subcategory":"Umweltschutz",
+    "question":"Was muss regelmäßig gewartet werden, um zu hohen Kraftstoffverbrauch und übermäßigen Schadstoffausstoß zu vermeiden?", 
+    "answers":{
+        "a":"Motor-Luftfilter",
+        "b":"Vergaser oder Einspritzanlage",
+        "c":"Zündanlage"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points": 3, 
+    "src":""}

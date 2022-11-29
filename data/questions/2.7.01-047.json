@@ -1,0 +1,13 @@
+{
+    "ID":"2.7.01-047", 
+    "category":"Zusatzstoff",
+    "subcategory":"Technik",
+    "question":"Wodurch wird die auf ein Fahrzeug wirkende Fliehkraft bei Kurvenfahrt vergrößert?", 
+    "answers":{
+        "a":"Durch höhere Geschwindigkeit",
+        "b":"Durch kleineren Kurvenradius",
+        "c":"Durch höheren Reifenluftdruck"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

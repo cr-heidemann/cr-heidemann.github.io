@@ -1,0 +1,13 @@
+{
+    "ID":"1.4.40-101", 
+    "category":"Grundstoff",
+    "subcategory":"Verkehrszeichen",
+    "question":"Sie fahren außerorts an diesem Verkehrszeichen vorbei. In welcher Entfernung ist die Gefahrstelle zu erwarten?", 
+    "answers":{
+        "a":"Zwischen 150 m und 250 m",
+        "b":"Zwischen 50 m und 150 m",
+        "c":"Zwischen 250 m und 350 m"
+    }, 
+    "right_answers":["a"], 
+    "points": 2, 
+    "src":"data/src/1.4.40-101.png"}

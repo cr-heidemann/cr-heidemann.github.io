@@ -13,7 +13,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
-    <script type="text/javascript" src="../scripts/randomquestion.js"></script>
+    <script type="text/javascript" src="scripts/randomquestion.js"></script>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,9 +33,12 @@
             <a class="cta" href="impressum.html"><button>Impressum</button></a>
         </header>
 
-        <div class="container">
-            <button onclick="zufallsmodus_gefahrenlehre()">Zufallsmodus Gefahrenlehre</button>
-            <button onclick="zufallsmodus_verhalten()">Zufallsmodus Verhalten</button>
+        <div class="containerbutton">
+            <p style="padding: 10px"><button onclick="zufallsmodus_gefahrenlehre()">Zufallsmodus Gefahrenlehre</button></p>
+            <p style="padding: 10px"><button onclick="zufallsmodus_verhalten()">Zufallsmodus Verhalten im Straßenverkehr</button></p>
+            <p style="padding: 10px"><button onclick="zufallsmodus_vorfahrt()">Zufallsmodus Vorfahrt, Vorrang</button></p>
+            <p style="padding: 10px"><button onclick="zufallsmodus_verkehrszeichen()">Zufallsmodus Verkehrszeichen</button></p>
+            <p style="padding: 10px"><a href="Zufallsfrage.html"><button>Zufallsmodus alle Fragen</button></a></p>
         </div>
 
 

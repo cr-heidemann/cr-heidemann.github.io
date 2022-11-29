@@ -1,0 +1,13 @@
+{
+    "ID":"2.7.01-045", 
+    "category":"Zusatzstoff",
+    "subcategory":"Technik",
+    "question":"Was ist beim Kontrollieren des Reifenluftdrucks zu berücksichtigen?", 
+    "answers":{
+        "a":"Beladung/Besetzung des Fahrzeugs",
+        "b":"Temperatur der Reifen",
+        "c":"Werkstoff der Felgen (Stahl/Leichtmetall)"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

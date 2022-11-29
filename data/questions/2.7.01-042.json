@@ -1,0 +1,13 @@
+{
+    "ID":"2.7.01-042", 
+    "category":"Zusatzstoff",
+    "subcategory":"Technik",
+    "question":"Wann verlängert sich der Bremsweg?", 
+    "answers":{
+        "a":"Beim Fahren im Gefälle",
+        "b":"Beim Mitnehmen von schwerem Gepäck",
+        "c":"Bei Gegenwind"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 4, 
+    "src":""}

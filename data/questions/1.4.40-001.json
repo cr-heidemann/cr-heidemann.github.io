@@ -1,0 +1,13 @@
+{
+    "ID":"1.4.40-001", 
+    "category":"Grundstoff",
+    "subcategory":"Verkehrszeichen",
+    "question":"Wie verhalten Sie sich bei diesem Verkehrszeichen?", 
+    "answers":{
+        "a":"Geschwindigkeit vermindern",
+        "b":"Bremsbereit sein",
+        "c":"Nur den von rechts kommenden Verkehr beobachten"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 4, 
+    "src":"data/src/1.4.40-001.png"}

@@ -1,0 +1,13 @@
+{
+    "ID":"1.5.01-009", 
+    "category":"Grundstoff",
+    "subcategory":"Umweltschutz",
+    "question":"Wie kann man den Lärm verringern, der durch ein Fahrzeug verursacht wird?", 
+    "answers":{
+        "a":"Durch Fahren im niedertourigen Drehzahlbereich",
+        "b":"Durch Verwenden von Reifen mit grobstolligem Profil",
+        "c":"Durch Entfernen des Luftfilters"
+    }, 
+    "right_answers":["a"], 
+    "points": 3, 
+    "src":""}

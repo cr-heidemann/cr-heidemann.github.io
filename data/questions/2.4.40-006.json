@@ -1,0 +1,13 @@
+{
+    "ID":"2.4.40-006", 
+    "category":"Zusatzstoff",
+    "subcategory":"Verkehrszeichen",
+    "question":"Worauf müssen Sie sich bei diesem Verkehrszeichen einstellen?", 
+    "answers":{
+        "a":"Auf verändertes Fahrverhalten des Fahrzeuges",
+        "b":"Auf notwendiges Gegenlenken",
+        "c":"Auf notwendige Geschwindigkeitsanpassung"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points": 3, 
+    "src":"data/src/2.4.40-006.png"}

@@ -1,0 +1,13 @@
+{
+    "ID":"1.5.01-005", 
+    "category":"Grundstoff",
+    "subcategory":"Umweltschutz",
+    "question":"Wann sollten Sie den Motor abstellen, um Kraftstoff zu sparen und die Umweltbelastung zu vermindern?", 
+    "answers":{
+        "a":"Wenn Sie in einem Verkehrsstau länger warten müssen",
+        "b":"Wenn Sie vor Bahnübergängen oder Baustellen warten müssen",
+        "c":"Wenn Sie bei einem 'STOP'-Schild anhalten"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

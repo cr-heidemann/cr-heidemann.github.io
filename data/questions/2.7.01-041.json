@@ -1,0 +1,13 @@
+{
+    "ID":"2.7.01-041", 
+    "category":"Zusatzstoff",
+    "subcategory":"Technik",
+    "question":"Was kann die Ursache für das Wegrutschen eines Mofas beim Kurvenfahren sein?", 
+    "answers":{
+        "a":"Starkes Bremsen",
+        "b":"Nasse oder vereiste Fahrbahn",
+        "c":"Sand oder Rollsplitt"
+    }, 
+    "right_answers":["a", "b", "c"], 
+    "points": 4, 
+    "src":""}

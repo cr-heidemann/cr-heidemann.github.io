@@ -1,0 +1,13 @@
+{
+    "ID":"2.5.01-006", 
+    "category":"Zusatzstoff",
+    "subcategory":"Umweltschutz",
+    "question":"Wodurch wird vermeidbarer Lärm verursacht?", 
+    "answers":{
+        "a":"Durch Fahren mit defekter Auspuffanlage",
+        "b":"Durch 'Spielen' mit dem Gas im Stand",
+        "c":"Durch Hupen bei Gefahr"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

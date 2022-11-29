@@ -1,0 +1,13 @@
+{
+    "ID":"2.7.01-044", 
+    "category":"Zusatzstoff",
+    "subcategory":"Technik",
+    "question":"Was erhöht die Gefahr, bei schneller Fahrt aus der Kurve zu 'fliegen'?", 
+    "answers":{
+        "a":"Bremsen",
+        "b":"Beschleunigen",
+        "c":"Auskuppeln"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

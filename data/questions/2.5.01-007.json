@@ -1,0 +1,13 @@
+{
+    "ID":"2.5.01-007", 
+    "category":"Zusatzstoff",
+    "subcategory":"Umweltschutz",
+    "question":"Warum ist scharfes Anfahren zu vermeiden?", 
+    "answers":{
+        "a":"Weil der entstehende Lärm andere belästigt",
+        "b":"Weil stärkerer Reifenverschleiß entsteht",
+        "c":"Weil dadurch die Hinterradbremse stark belastet wird"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

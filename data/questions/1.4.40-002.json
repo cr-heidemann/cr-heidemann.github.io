@@ -1,0 +1,13 @@
+{
+    "ID":"1.4.40-002", 
+    "category":"Grundstoff",
+    "subcategory":"Verkehrszeichen",
+    "question":"Was müssen Sie bei diesem Verkehrszeichen berücksichtigen?", 
+    "answers":{
+        "a":"Der Bremsweg ist im Gefälle länger als in der Ebene",
+        "b":"Bei längerer Betätigung der Bremse kann die Bremswirkung nachlassen",
+        "c":"Die Bremswirkung wird besser, wenn kein Getriebegang eingelegt ist"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":"data/src/1.4.40-002.png"}

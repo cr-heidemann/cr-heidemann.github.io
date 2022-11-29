@@ -65,6 +65,7 @@ var Quiz = function(quizContainer, answers) {
 
 	// Quiz container element
 	this.container = document.getElementById(quizContainer);
+	
 	this.questions = [];
 	/**
 	 * Quiz Result object containing quiz score information. See {{#crossLink "QuizResult"}}{{/crossLink}}
@@ -80,15 +81,19 @@ var Quiz = function(quizContainer, answers) {
 	 * @type Array
 	 */
 	this.answers = answers;
-
+	
 	// Get all the questions and add element to the questions array
+	console.log(this.container.children.length)
 	for (var i=0; i < this.container.children.length; i++) {
+		console.log(this.container.children[i])
 		if (this.container.children[i].classList.contains(Quiz.Classes.QUESTION)) {
 			this.questions.push(this.container.children[i]);
 		}
 	}
 
 	if (this.answers.length != this.questions.length) {
+		console.log("a",this.answers);
+		console.log("q",this.questions);
 		throw new Error("Number of answers does not match number of questions!");
 	}
 };

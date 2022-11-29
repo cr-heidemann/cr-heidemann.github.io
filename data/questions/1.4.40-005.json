@@ -1,0 +1,13 @@
+{
+    "ID":"1.4.40-005", 
+    "category":"Grundstoff",
+    "subcategory":"Verkehrszeichen",
+    "question":"Sie sehen dieses Verkehrszeichen. Womit müssen Sie rechnen?", 
+    "answers":{
+        "a":"Mit Gegenverkehr",
+        "b":"Mit Blendung durch den Gegenverkehr bei Nacht",
+        "c":"Mit Vorrang des Gegenverkehrs"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":"data/src/1.4.40-005.png"}

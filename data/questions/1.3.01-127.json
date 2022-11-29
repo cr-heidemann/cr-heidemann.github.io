@@ -1,0 +1,13 @@
+{
+    "ID":"1.3.01-127", 
+    "category":"Grundstoff",
+    "subcategory":"Vorfahrt, Vorrang",
+    "question":"In welcher Reihenfolge müssen die Fahrzeuge hier weiterfahren?", 
+    "answers":{
+        "a":"[Der Radfahrer], ich, [der gelbe Pkw]",
+        "b":"[Der Radfahrer], [der gelbe Pkw], ich",
+        "c":"Ich, [der Radfahrer], [der gelbe Pkw]"
+    }, 
+    "right_answers":["a"], 
+    "points": 5, 
+    "src":"data/src/1.3.01-127.png"}
