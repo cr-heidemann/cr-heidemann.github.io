@@ -1,3 +1,4 @@
+Braucht Node.js
 Um die Dateien zu bearbeiten, empfehle ich Visual Studio Code.
 Um die Dateien auf einem lokalen Webserver zu testen, holt euch am besten die aktuelle Python-Version (>=3)
 
