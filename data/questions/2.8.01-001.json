@@ -1,0 +1,13 @@
+{
+    "ID":"2.8.01-001", 
+    "category":"Zusatzstoff",
+    "subcategory":"Eignung und Befähigung von Kraftfahrern",
+    "question":"Wie lange dauert normalerweise die Probezeit?", 
+    "answers":{
+        "a":"2 Jahre",
+        "b":"1 Jahr",
+        "c":"3 Jahre"
+    }, 
+    "right_answers":["a"], 
+    "points": 2, 
+    "src":""}

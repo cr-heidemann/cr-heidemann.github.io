@@ -1,0 +1,13 @@
+{
+    "ID":"2.6.03-001", 
+    "category":"Zusatzstoff",
+    "subcategory":"Vorschriften über den Betrieb der Fahrzeuge",
+    "question":"Was ist beim Rückwärtsfahren mit einer Fahrzeugkombination richtig, wenn die Sicht nach hinten beeinträchtigt ist?", 
+    "answers":{
+        "a":"Wenn die Sichtverbindung zur einweisenden Person abreißt, muss angehalten werden",
+        "b":"Nur beim Einfahren in eine Vorfahrtstraße ist Einweisung erforderlich",
+        "c":"Auf einem Betriebsgelände kann auf Einweisung verzichtet werden"
+    }, 
+    "right_answers":["a"], 
+    "points": 3, 
+    "src":""}

@@ -1,0 +1,57 @@
+<!-- Try this example at https://alpsquid.github.io/quizlib -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <script type="text/javascript" src="/scripts/quizlib.1.0.1.min.js"></script>
+        <!-- Dev: <script type="text/javascript" src="../../src/quizlib.js"></script>-->
+        <script type="text/javascript" src="/scripts/2.4.40-003.js"></script>
+        <script type="text/javascript" src="../../scripts/randomquestion.js"></script>
+        <link rel="stylesheet" type="text/css" href="/styles/quizlib.min.css" media="screen">
+        <!-- Dev: <link rel="stylesheet" type="text/css" href="../../src/quizlib.css" media="screen">-->
+        <link rel="stylesheet" type="text/css" href="/styles/stylesheet.css" media="screen">
+        
+        <title>Verkehrszeichen - Zusatzstoff - 2.4.40-003</title>
+    </head>
+
+    <body>
+        <!-- Quiz Results -->
+        <!-- For this multi quiz, we'll use the same result element and move it to active quiz when the answer button is pressed. -->
+        <div id="quiz-result" class="card">
+            Deine Antwort ist <span id="quiz-result-text"></span><br/>
+        </div>
+
+
+        <!-- Quiz 1 -->
+        <div id="2.4.40-003">
+
+            <h2>Verkehrszeichen - Zusatzstoff - 2.4.40-003</h2>
+            3 Punkte
+            <br>
+            <img src="/data/src/2.4.40-003.png" width="500" height="300">
+            <!-- Question 1 -->
+            <div class="card quizlib-question">
+                <div class="quizlib-question-title"><h3>Wie müssen Sie sich bei diesem Verkehrszeichen verhalten?</h3></div>
+                <div class="quizlib-question-answers">
+                    <ul>
+                        
+                        <li><label><input type="checkbox" name="q1" value="a">Geschwindigkeit vor der Kurve vermindern</label></li>
+                        <li><label><input type="checkbox" name="q1" value="b">Möglichst weit rechts fahren</label></li>
+                        <li><label><input type="checkbox" name="q1" value="c">Vor der Kurve links blinken</label></li>
+
+                        
+                    </ul>
+                </div>
+            </div>
+            <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+            <button type="button" onclick="showResults(this.parentNode.id);">Antworten prüfen</button>
+        </div>
+        <div>
+            <a href="2.4.40-002.html"><button>Zurück</button></a>
+            <a href="2.4.40-004.html"><button>Weiter</button></a>
+            <button onclick="zufallsmodus_verkehrszeichen()">Zufällig</button>
+        </div>
+    </body>
+</html>

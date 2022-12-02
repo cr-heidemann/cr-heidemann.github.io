@@ -1,0 +1,13 @@
+{
+    "ID":"2.6.02-014", 
+    "category":"Zusatzstoff",
+    "subcategory":"Vorschriften über den Betrieb der Fahrzeuge",
+    "question":"Wodurch erlischt die Betriebserlaubnis eines Mofas?", 
+    "answers":{
+        "a":"Durch 'Ausräumen' des Schalldämpfers",
+        "b":"Durch Änderung des Übersetzungsverhältnisses",
+        "c":"Durch Anbringung eines zweiten Rückspiegels"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

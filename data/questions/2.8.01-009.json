@@ -1,0 +1,13 @@
+{
+    "ID":"2.8.01-009", 
+    "category":"Zusatzstoff",
+    "subcategory":"Eignung und Befähigung von Kraftfahrern",
+    "question":"Sie befinden sich in der Probezeit und sind bisher nicht auffällig geworden. Welche Folgen können eintreten, wenn Sie an dem Verkehrszeichen 'Halt. Vorfahrt gewähren.' nicht anhalten und dadurch andere Verkehrsteilnehmer gefährden?", 
+    "answers":{
+        "a":"Anordnung zur Teilnahme an einem Aufbauseminar für Fahranfänger",
+        "b":"Eintrag in das Fahreignungsregister",
+        "c":"Anordnung zum erneuten Ablegen einer theoretischen Fahrerlaubnisprüfung"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 2, 
+    "src":""}

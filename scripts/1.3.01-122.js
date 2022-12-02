@@ -17,6 +17,24 @@ function showResults(quizID) {
     var activeQuiz = quizzes[quizID];
     // Check answers and continue if all questions have been answered
     if (activeQuiz.checkAnswers()) {
+        r= activeQuiz.result.results
+        console.log(r[0])
+        
+        var quizResultElement = document.getElementById('quiz-result');
+        var quizElement = document.getElementById(quizID);
+        quizElement.insertBefore(quizResultElement, quizElement.children[1]);
+
+        // Show the result element and add result values.
+        // Change background colour of results div according to score percent
+        quizResultElement.style.display = 'block';
+         if (r[0]===true){
+            document.getElementById('quiz-result-text').textContent="richtig!";
+            quizResultElement.style.backgroundColor = '#4caf50';}
+        else{document.getElementById('quiz-result-text').textContent="falsch!";
+        quizResultElement.style.backgroundColor = '#f44336';
+
+        }
+        /*
         var quizScorePercent = activeQuiz.result.scorePercentFormatted; // The unformatted percentage is a decimal in range 0 - 1
         var quizResultElement = document.getElementById('quiz-result');
         // Move the quiz result element to the active quiz, placing it after the quiz title.
@@ -34,7 +52,7 @@ function showResults(quizID) {
         else if (quizScorePercent >= 50) quizResultElement.style.backgroundColor = '#ffc107';
         else if (quizScorePercent >= 25) quizResultElement.style.backgroundColor = '#ff9800';
         else if (quizScorePercent >= 0) quizResultElement.style.backgroundColor = '#f44336';
-        
+        */
         // Highlight questions according to whether they were correctly answered. The callback allows us to highlight/show the correct answer
         activeQuiz.highlightResults(handleAnswers);
     }

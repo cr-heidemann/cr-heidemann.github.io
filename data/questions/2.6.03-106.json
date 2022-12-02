@@ -1,0 +1,13 @@
+{
+    "ID":"2.6.03-106", 
+    "category":"Zusatzstoff",
+    "subcategory":"Vorschriften über den Betrieb der Fahrzeuge",
+    "question":"Was bezeichnet man als Anhängelast?", 
+    "answers":{
+        "a":"Die tatsächlich gezogene Last",
+        "b":"Die zulässige Gesamtmasse des Anhängers",
+        "c":"Die Nutzlast des Anhängers"
+    }, 
+    "right_answers":["a"], 
+    "points": 3, 
+    "src":""}

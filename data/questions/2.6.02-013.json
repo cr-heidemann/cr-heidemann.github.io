@@ -1,0 +1,13 @@
+{
+    "ID":"2.6.02-013", 
+    "category":"Zusatzstoff",
+    "subcategory":"Vorschriften über den Betrieb der Fahrzeuge",
+    "question":"Welche Folgen hat es, wenn Sie mit einem Mofa fahren, das durch 'Frisieren' schneller als 25 km/h läuft?", 
+    "answers":{
+        "a":"Bestrafung wegen Fahrens ohne Fahrerlaubnis",
+        "b":"Bußgeld und Bestrafung, weil Betriebserlaubnis und Versicherungsschutz erloschen sind",
+        "c":"Es hat keine nachteiligen Folgen, solange man mit diesem Mofa nicht schneller als 25 km/h fährt"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

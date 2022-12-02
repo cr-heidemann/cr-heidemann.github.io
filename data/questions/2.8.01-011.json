@@ -1,0 +1,13 @@
+{
+    "ID":"2.8.01-011", 
+    "category":"Zusatzstoff",
+    "subcategory":"Eignung und Befähigung von Kraftfahrern",
+    "question":"Aufgrund mehrerer Verstöße innerhalb der Probezeit hat die Behörde die Teilnahme an einem Aufbauseminar angeordnet. Der Fahranfänger kommt dieser Anordnung nicht nach. Womit muss er jetzt rechnen?", 
+    "answers":{
+        "a":"Mit dem Entzug der Fahrerlaubnis",
+        "b":"Mit einem Bußgeldbescheid",
+        "c":"Mit zusätzlichen Punkten im Fahreignungsregister"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 2, 
+    "src":""}

@@ -1,0 +1,13 @@
+{
+    "ID":"1.8.01-003", 
+    "category":"Grundstoff",
+    "subcategory":"Eignung und Befähigung von Kraftfahrern",
+    "question":"Wann werden im Fahreignungsregister eingetragene Ordnungswidrigkeiten getilgt, die mit zwei Punkten bewertet wurden?", 
+    "answers":{
+        "a":"5 Jahren",
+        "b":"3 Jahren",
+        "c":"2 Jahren"
+    }, 
+    "right_answers":["a"], 
+    "points": 3, 
+    "src":""}

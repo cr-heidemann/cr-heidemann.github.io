@@ -1,0 +1,14 @@
+{
+    "ID":"2.6.02-011", 
+    "category":"Zusatzstoff",
+    "subcategory":"Vorschriften über den Betrieb der Fahrzeuge",
+    "question":"Wann dürfen Sie mit einem Mofa auf öffentlichen Straßen nicht fahren?", 
+    "answers":{
+        "a":"Wenn keine Haftpflichtversicherung besteht",
+        "b":"Wenn das Mofa nicht verkehrssicher ist",
+        "c":"Wenn keine Kraftfahrzeugsteuer bezahlt wurde"
+
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

@@ -15,7 +15,7 @@ def process(path):
 
 
 def make_html(files, json):
-    
+    ROOT="/Themenübersicht.html"
     with open("data//quiz.template.html", "r", encoding="utf-8") as temp:
         template=temp.read()
     ID=json["ID"]
@@ -32,19 +32,22 @@ def make_html(files, json):
     points=json["points"]
     path="questions//" + subcategory + "//" + ID + ".html"
     src=""
+    
     if json["src"].endswith(".png"):
-        src='<img src="'+ json["src"]+'" width="500" height="300">'
+        src='<img src="/'+ json["src"]+'" width="500" height="300">'
     elif json["src"].endswith(".mp4"):
-        src='<video width="500" height="300" controls><source src="'+ src+'" type="video/mp4"></video>'
+        src='<video width="500" height="300" controls><source src="/'+ src+'" type="video/mp4"></video>'
 
     index=files[ID[2]].index(ID)
     #print(index)
     if index == 0:
-        before="../"+subcategory+".html"
+        #before="../"+subcategory+".html"
+        before=ROOT
         after=files[ID[2]][index+1]+".html"
     elif index == len(files[ID[2]]) -1:
         before=files[ID[2]][index-1]+".html"
-        after="../"+subcategory+".html"
+        #after="../"+subcategory+".html"
+        after=ROOT
     else:
         before=files[ID[2]][index-1]+".html"
         after=files[ID[2]][index+1]+".html"
@@ -56,9 +59,16 @@ def make_html(files, json):
         # <li><label><input type="checkbox" name="q1" value="{{key}}"> {{value}}</label></li>
         answers+='                        <li><label><input type="checkbox" name="q1" value="'+key+'">'+value+'</label></li>' +"\n"
         
-    map_category_func={"Gefahrenlehre":"zufaellig_button_gefahrenlehre()",
+    map_category_func={"Gefahrenlehre":"zufallsmodus_gefahrenlehre()",
+                       "Verhalten":"zufallsmodus_verhalten()",
+                       "Vorfahrt":"zufallsmodus_vorfahrt()",
+                       "Verkehrszeichen":"zufallsmodus_verkehrszeichen()",
+                       "Umweltschutz":"zufallsmodus_umweltschutz()",
+                       "Technik":"zufallsmodus_technik()",
+                       "Eignung":"zufallsmodus_eignung()",
+                       "Betriebsvorschriften":"zufallsmodus_betriebsvorschriften()"
                        }  
-    fun=""
+    
     for key, value in map_category_func.items():
         if subcategory == key:
             fun=value

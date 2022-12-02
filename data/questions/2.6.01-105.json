@@ -1,0 +1,13 @@
+{
+    "ID":"2.6.01-105", 
+    "category":"Zusatzstoff",
+    "subcategory":"Vorschriften über den Betrieb der Fahrzeuge",
+    "question":"Sie haben einen gebrauchten Pkw gekauft. Die Hauptuntersuchung ist neu. Wann ist die nächste Hauptuntersuchung fällig?", 
+    "answers":{
+        "a":"Nach zwei Jahren",
+        "b":"Nach einem Jahr",
+        "c":"Nach drei Jahren"
+    }, 
+    "right_answers":["a"], 
+    "points": 2, 
+    "src":""}

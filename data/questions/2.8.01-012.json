@@ -1,0 +1,13 @@
+{
+    "ID":"2.8.01-012", 
+    "category":"Zusatzstoff",
+    "subcategory":"Eignung und Befähigung von Kraftfahrern",
+    "question":"Womit muss ein Fahrerlaubnisbewerber rechnen, wenn er beim Fahren ohne Fahrerlaubnis erwischt wird?", 
+    "answers":{
+        "a":"Die Fahrerlaubnisbehörde kann den Prüfauftrag zurückziehen",
+        "b":"Eine Überprüfung der Eignung zum Führen von Kraftfahrzeugen kann angeordnet werden",
+        "c":"Mit keinen Auswirkungen, solange man in einer Fahrschule angemeldet ist"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

@@ -1,0 +1,12 @@
+{
+    "ID":"2.6.01-106", 
+    "category":"Zusatzstoff",
+    "subcategory":"Vorschriften über den Betrieb der Fahrzeuge",
+    "question":"Sie haben Ihren zugelassenen Wohnanhänger während des Winterhalbjahres auf einem Campingplatz abgestellt. Was gilt hinsichtlich der Hauptuntersuchung?", 
+    "answers":{
+        "a":"Der auf der Prüfplakette angegebene Termin ist einzuhalten",
+        "b":"Der auf der Prüfplakette angegebene Termin verschiebt sich um die Standzeit"
+    }, 
+    "right_answers":["a"], 
+    "points": 2, 
+    "src":""}

@@ -1,0 +1,13 @@
+{
+    "ID":"2.8.01-010", 
+    "category":"Zusatzstoff",
+    "subcategory":"Eignung und Befähigung von Kraftfahrern",
+    "question":"Was soll mit der Teilnahme an einem Aufbauseminar innerhalb der Probezeit erreicht werden?", 
+    "answers":{
+        "a":"Eine rücksichtsvollere und risikobewusstere Einstellung zum Straßenverkehr",
+        "b":"Eine Verbesserung der Gefahrenerkennung",
+        "c":"Ein Abbau der Punkte im Fahreignungsregister"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 2, 
+    "src":""}

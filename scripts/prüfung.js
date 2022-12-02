@@ -29,8 +29,8 @@ async function getQuestions() {
         }
     }
           
-    grundstoff_selected=getRandom(grundstoff,25);
-    zusatzstoff_selected=getRandom(zusatzstoff,5);
+    grundstoff_selected=getRandom(grundstoff,20);
+    zusatzstoff_selected=getRandom(zusatzstoff,10);
     const fragen = grundstoff_selected.concat(zusatzstoff_selected); 
     let questions_2 = fragen
     .map(value => ({ value, sort: Math.random() }))

@@ -1,0 +1,13 @@
+{
+    "ID":"2.6.03-105", 
+    "category":"Zusatzstoff",
+    "subcategory":"Vorschriften über den Betrieb der Fahrzeuge",
+    "question":"Worauf müssen Sie achten, wenn Sie hinter Ihrem Pkw einen Anhänger mit Auflaufbremse mitführen wollen?", 
+    "answers":{
+        "a":"Dass die tatsächliche Gesamtmasse des Anhängers nicht größer ist als die für den Pkw zugelassene Anhängelast",
+        "b":"Dass das Abreißseil mit dem Zugfahrzeug verbunden ist",
+        "c":"Dass die zulässige Höchstgeschwindigkeit dieses Zuges auch auf Autobahnen 60 km/h beträgt"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 3, 
+    "src":""}

@@ -1,0 +1,13 @@
+{
+    "ID":"2.6.01-003", 
+    "category":"Zusatzstoff",
+    "subcategory":"Vorschriften über den Betrieb der Fahrzeuge",
+    "question":"Woran können Sie erkennen, wann Sie Ihr Fahrzeug zur nächsten Hauptuntersuchung vorführen müssen?", 
+    "answers":{
+        "a":"An der Prüfplakette auf dem hinteren amtlichen Kennzeichen",
+        "b":"An der Eintragung in der Zulassungsbescheinigung Teil I",
+        "c":"An der Eintragung in der Bedienungsanleitung meines Fahrzeugs"
+    }, 
+    "right_answers":["a", "b"], 
+    "points": 2, 
+    "src":""}

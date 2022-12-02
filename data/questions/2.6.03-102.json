@@ -1,0 +1,13 @@
+{
+    "ID":"2.6.03-102", 
+    "category":"Zusatzstoff",
+    "subcategory":"Vorschriften über den Betrieb der Fahrzeuge",
+    "question":"Auf einer Straße mit Schlaglöchern kommt Ihr Anhänger ins 'Springen'. Wie müssen Sie sich verhalten?", 
+    "answers":{
+        "a":"Geschwindigkeit vermindern, um Schleudern zu verhindern",
+        "b":"Beschleunigen, um den Zug gestreckt zu halten",
+        "c":"Mit gleich bleibender Geschwindigkeit den Schlaglöchern ausweichen"
+    }, 
+    "right_answers":["a"], 
+    "points": 3, 
+    "src":""}

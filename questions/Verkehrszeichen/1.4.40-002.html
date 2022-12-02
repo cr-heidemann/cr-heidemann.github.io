@@ -20,7 +20,7 @@
         <!-- Quiz Results -->
         <!-- For this multi quiz, we'll use the same result element and move it to active quiz when the answer button is pressed. -->
         <div id="quiz-result" class="card">
-            You Scored <span id="quiz-percent"></span>% - <span id="quiz-score"></span>/<span id="quiz-max-score"></span><br/>
+            Deine Antwort ist <span id="quiz-result-text"></span><br/>
         </div>
 
 
@@ -30,7 +30,7 @@
             <h2>Verkehrszeichen - Grundstoff - 1.4.40-002</h2>
             3 Punkte
             <br>
-            <img src="data/src/1.4.40-002.png" width="500" height="300">
+            <img src="/data/src/1.4.40-002.png" width="500" height="300">
             <!-- Question 1 -->
             <div class="card quizlib-question">
                 <div class="quizlib-question-title"><h3>Was müssen Sie bei diesem Verkehrszeichen berücksichtigen?</h3></div>
@@ -51,7 +51,7 @@
         <div>
             <a href="1.4.40-001.html"><button>Zurück</button></a>
             <a href="1.4.40-004.html"><button>Weiter</button></a>
-            <button onclick="">Zufällig</button>
+            <button onclick="zufallsmodus_verkehrszeichen()">Zufällig</button>
         </div>
     </body>
 </html>

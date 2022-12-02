@@ -25,3 +25,4 @@ function myHandleAnswerMethod(quiz, question, no, correct) {
         // See the example code on GitHub for an example implementation.
     }
 }
+
